@@ -31,4 +31,5 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 <!-- This is my first website. -->
 
-<img src = "images/1.png" alt = "Image 1">
+<img src = "images\1.png" alt = "Image 1">
+<!-- C:\Users\sinar\socialdata\SirCna98.github.io\images\1.png -->

@@ -35,7 +35,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 <img src="/images/2.png" alt="Image 2">
 
-<img src="/images/3.png" alt="Image 3">
+<!-- <img src="/images/3.png" alt="Image 3"> -->
 
 
 <p>

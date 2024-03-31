@@ -115,7 +115,7 @@ We all see lots of numbers and things happening every day. It can be hard to und
 
 <!-- First, we've got a picture that's like a calendar. It's full of little boxes for each day. But instead of words, there are colors. These colors change if something special happens. If a lot of something happens, like people buying stuff, the box might be a dark color. If not much happens, the box might be light. This helps us see what days are busy or quiet over many years. It's a way to look back and remember what happened when. -->
 
-Now, let's talk about the second picture. It's a map with red dots. This map is of a city, a place where people live and work. Each red dot stands for something that happened there. Where you see lots of red dots close together, that's where a lot of stuff goes on. Maybe that's where most people like to hang out, or it's a busy part of the city with lots of cars and buses. This map helps us see where the busy spots are.
+Now, let's talk about the second picture. It's a map with red dots. This map is of a city, a place where people crime is happening. Each red dot stands for something that happened there. Where you see lots of red dots close together, that's where a lot of stuff goes on. Maybe that's where most crimes happend those areas, or it's a violent(criminal) part of the city with lots of criminals. This map helps us see where the busy spots are.
 
 <!-- Last, there's a picture with bars. Each bar is for one hour of the day. Some bars are tall; this means in that hour, many things happened. Maybe it's when people are going to work or school. Other bars are short; not much happened then. This might be late at night when most people are home. It's a good way to see when things get busy or quiet in a city. -->
 

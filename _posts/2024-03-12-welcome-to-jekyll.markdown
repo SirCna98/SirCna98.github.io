@@ -42,7 +42,7 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
 <html lang="en">
   <head>
     <meta charset="utf-8">

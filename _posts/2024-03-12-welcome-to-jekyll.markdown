@@ -39,37 +39,6 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 
 
-#Part 6
-from bokeh.plotting import figure, show
-from bokeh.models import ColumnDataSource, Legend, LinearAxis,Plot
-from bokeh.transform import factor_cmap
-from bokeh.palettes import Category20
-from bokeh.models.tools import HoverTool
-from bokeh.io import output_notebook
-import pandas as pd
-
-# Step 1: Convert Pandas DataFrame to Bokeh ColumnDataSource
-source = ColumnDataSource(hourly_crime_counts)
-
-# Step 2: Create an empty figure
-p = figure(height=400, width=800, title="Hourly Crime Counts",
-           x_range=[str(i) for i in range(1, 25)], toolbar_location="above",
-           tools="hover")
-
-# Step 3: Add the bars for each crime category
-bar = {}
-for indx, crime in enumerate(normalized_hourly_crime_counts.columns):
-    bar[crime] = p.vbar(x='Hour_of_Day', top=crime, source=source, width=0.7,
-                        color=Category20[20][indx],)
-
-# Step 5: Adjust legend position
-items = [(crime, [bar[crime]]) for crime in normalized_hourly_crime_counts.columns]
-legend = Legend(items=items)
-p.add_layout(legend, 'right')
-
-#Step 4: The last thing to do is to make your legend interactive and display the figure
-p.legend.click_policy="mute"
-show(p)
 
 
 

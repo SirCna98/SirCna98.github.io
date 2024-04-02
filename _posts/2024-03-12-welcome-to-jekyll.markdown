@@ -43,11 +43,17 @@ print_hi('Tom')
 
 
 
+#!/usr/bin/env python
+# coding: utf-8
+
+# In[9]:
+
+
 import pandas as pd
 import folium
 
 # Load the dataset 
-crime_data = pd.read_csv("C:\\Users\\sinar\\Downloads\\Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
+crime_data = pd.read_csv("/Users/jinanalhakeem/Desktop/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
 
 # Convert the 'Date' column to datetime format
 crime_data['Date'] = pd.to_datetime(crime_data['Date'])
@@ -68,6 +74,154 @@ for index, row in drug_data.iterrows():
 
 # Display the map
 map_sf_drug
+
+
+# In[8]:
+
+
+import pandas as pd
+import folium
+
+# Load the dataset 
+crime_data = pd.read_csv("/Users/jinanalhakeem/Desktop/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
+
+# Convert the 'Date' column to datetime format
+crime_data['Date'] = pd.to_datetime(crime_data['Date'])
+
+# Filter the data to include only 'DRUG/NARCOTIC' arrests for the specified months
+start_date = '2008-01-01'
+end_date = '2018-01-01'
+drug_data = crime_data[(crime_data['Category'] == 'ROBBERY') & 
+                       (crime_data['Date'] >= start_date) & 
+                       (crime_data['Date'] <= end_date)].copy()
+
+# Create a Folium map centered around San Francisco
+map_sf_drug = folium.Map(location=[37.7749, -122.4194], zoom_start=13)
+
+# Add a red dot marker for each arrest
+for index, row in drug_data.iterrows():
+    folium.CircleMarker(location=[row['Y'], row['X']], radius=2, color='red', fill=True).add_to(map_sf_drug)
+
+# Display the map
+map_sf_drug
+
+
+# In[2]:
+
+
+print(crime_data['Category'].unique())
+
+
+# In[3]:
+
+
+import pandas as pd
+import folium
+from folium.plugins import HeatMap
+
+# Indlæs datasættet
+crime_data = pd.read_csv("/Users/jinanalhakeem/Desktop/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
+
+# Filtrer dataene, så kun 'SEX OFFENSES, NON FORCIBLE' inkluderes
+sex_offenses_data = crime_data[crime_data['Category'] == 'SEX OFFENSES, NON FORCIBLE'].copy()
+
+# Opret et Folium-kort centreret omkring San Francisco
+map_sf_sex_offenses = folium.Map(location=[37.7749, -122.4194], zoom_start=13)
+
+# Opret et HeatMap-lag ved hjælp af arrestationsstederne
+heat_data = [[row['Y'], row['X']] for index, row in sex_offenses_data.iterrows()]
+HeatMap(heat_data).add_to(map_sf_sex_offenses)
+
+# Vis kortet
+map_sf_sex_offenses
+
+
+# In[4]:
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+
+crime_data = pd.read_csv("/Users/jinanalhakeem/Desktop/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
+
+# Filter data, so only 'SEX OFFENSES, NON FORCIBLE' included
+sex_offenses_data = crime_data[crime_data['Category'] == 'SEX OFFENSES, NON FORCIBLE'].copy()
+
+# Opret scatter plot
+plt.figure(figsize=(10, 6))
+plt.scatter(sex_offenses_data['X'], sex_offenses_data['Y'], color='red', alpha=0.5)
+plt.title("Distribution of SEX OFFENSES, NON FORCIBLE in San Francisco")
+plt.xlabel("Longitude (X)")
+plt.ylabel("Latitude (Y)")
+plt.grid(True)
+plt.show()
+
+
+# In[5]:
+
+
+import pandas as pd
+import folium
+from folium.plugins import HeatMapWithTime
+
+# Indlæs datasættet
+crime_data = pd.read_csv("/Users/jinanalhakeem/Desktop/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
+
+# Filtrer dataene, så kun 'VEHICLE THEFT' inkluderes
+Vehicle_theft_data = crime_data[crime_data['Category'] == 'VEHICLE THEFT'].copy()
+
+# Opret en liste af varmekortdata for hvert år
+heat_data_by_year = []
+for year in range(2006, 2020):
+    year_data = Vehicle_theft_data[Vehicle_theft_data['Date'].str.startswith(str(year))][['Y', 'X']].values.tolist()
+    heat_data_by_year.append(year_data)
+
+# Opret kortet centreret omkring San Francisco
+map_sf_Vehicle_theft_time = folium.Map(location=[37.7749, -122.4194], zoom_start=13)
+
+# Opret HeatMapWithTime-laget
+HeatMapWithTime(heat_data_by_year, auto_play=True, max_opacity=0.3).add_to(map_sf_Vehicle_theft_time)
+
+# Vis kortet
+map_sf_Vehicle_theft_time
+
+
+# Part 6
+
+
+import pandas as pd
+import folium
+from folium.plugins import HeatMapWithTime
+
+# Indlæs datasættet (erstat stien med din egen)
+data = pd.read_csv("/Users/jinanalhakeem/Desktop/Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
+
+df = pd.read_csv(pd.compat.StringIO(data), sep=';')
+df = df.set_index('ID')
+
+gdf = gpd.GeoDataFrame(df, geometry=gpd.points_from_xy(df.lon, df.lat))
+
+# Opret kortet centreret omkring San Francisco
+map_sf_Vehicle_theft_time = folium.Map(location=[37.7749, -122.4194], zoom_start=13)
+
+# Opret en liste af varmekortdata for hvert år
+heat_data_by_year = []
+for year in range(2006, 2020):
+    year_data = gdf[gdf['yr_built'] == year][['lat', 'lon']].values.tolist()
+    heat_data_by_year.append(year_data)
+
+# Opret HeatMapWithTime-laget
+hm = HeatMapWithTime(heat_data_by_year, auto_play=True, radius=10, max_opacity=0.3)
+hm.add_to(map_sf_Vehicle_theft_time)
+
+# Vis kortet
+map_sf_Vehicle_theft_time
+
+
+
+
+
+
 
 
 

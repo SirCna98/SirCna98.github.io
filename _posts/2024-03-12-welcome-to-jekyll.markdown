@@ -41,10 +41,9 @@ print_hi('Tom')
 
 
 
-
-
-import pandas as pd
-import folium
+<div>
+<!-- import pandas as pd
+import folium -->
 
 # Load the dataset 
 crime_data = pd.read_csv("C:\\Users\\sinar\\Downloads\\Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
@@ -69,8 +68,7 @@ for index, row in drug_data.iterrows():
 # Display the map
 map_sf_drug
 
-
-
+</div>
 
 
 

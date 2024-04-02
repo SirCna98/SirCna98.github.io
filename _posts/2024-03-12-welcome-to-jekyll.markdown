@@ -2,7 +2,7 @@ layout: post
 title:  "Crime development in San Francisco within the decade (from 2008 to 2018)"
 date:   2024-03-12 10:28:34 +0100
 categories: jekyll update
----
+<!-- --- -->
 <!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:

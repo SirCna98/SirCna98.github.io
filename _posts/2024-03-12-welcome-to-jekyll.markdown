@@ -3,7 +3,7 @@ title:  "Crime development in San Francisco within the decade (from 2008 to 2018
 date:   2024-03-12 10:28:34 +0100
 categories: jekyll update
 
-
+<p>
 <h1>Crime development in San Francisco within the decade (from 2008 to 2018)</h1>
 
 San Francisco, located on the west coast of the United States in the northern part of California, is a diverse city. People from all over the world have chosen to call this city their home. San Francisco is an extremely captivating place, but it also faces challenges in terms of crime. By analyzing crime data from recent decades, we can reveal patterns and trends. In this study we will focus on crime patterns in the period from 2008 to 2018. This will give us insight into significant changes and highlight areas of concern. Politicians have encountered many problems regarding criminal activities in the area over the past decade, therefor  utilization of this data can aid fighting serious crimes by which security and safety will be increased in the society.
@@ -12,19 +12,14 @@ San Francisco, located on the west coast of the United States in the northern pa
 
 
 
-<!-- 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/ -->
 
 <h1>Calendar heatmap </h1>
 
-<!-- This is my first website. -->
+
 
 <img src="/images/1.png" alt="Image 1">
 
 
-<!-- # Description for first plot -->
 
 <p>
 
@@ -35,12 +30,9 @@ This type of plot provides a comprehensive overview of temporal patterns and tre
 
 </p>
 
-<!-- <img src="/images/2.png" alt="Image 2"> -->
-
-<!-- <img src="/images/3.png" alt="Image 3"> -->
 
 
-<p>
+
 
 <h1>Map display</h1>
 
@@ -48,10 +40,6 @@ After analyzing the general temporal patterns and trends in the incidence of rob
 
 </p>
 
-<!-- <iframe src="/images/Plot 2.html"></iframe> -->
-
-
-<!-- <iframe src="/images/Plot 2.html" style="width: 1000; height: 750;"></iframe> -->
 
 <iframe src="/images/Plot 2.html" style="width: 500px; height: 300px;"></iframe>
 

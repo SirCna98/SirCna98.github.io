@@ -48,8 +48,7 @@ San Francisco, located on the west coast of the United States in the northern pa
 
 
 
-
-
+<script src=".\Plot 2.html"></script>
 
 
 

@@ -84,6 +84,9 @@ We only used small amounts of data instead of 10 years of data, as 10 years of d
 
 <!-- # Display plot 2.2 -->
 
+<iframe src="/images/Plot 2.2.html" style="width: 500px; height: 300px;"></iframe>
+
+
 <p>
 
 After researching crime in the area, it is also interesting to know when it occurs most frequently and what types of crime are most common.

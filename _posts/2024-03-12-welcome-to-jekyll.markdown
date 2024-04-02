@@ -78,7 +78,7 @@ We only used small amounts of data instead of 10 years of data, as 10 years of d
 
 </p>
 
-# Display plot 2.2
+<!-- # Display plot 2.2 -->
 
 <p>
 

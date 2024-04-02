@@ -1,9 +1,9 @@
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Crime development in San Francisco within the decade (from 2008 to 2018)"
 date:   2024-03-12 10:28:34 +0100
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
 Jekyll requires blog post files to be named according to the following format:
 
@@ -19,9 +19,10 @@ def print_hi(name)
 end
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+{% endhighlight %} -->
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+
+
 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
@@ -33,9 +34,47 @@ Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most ou
 
 <img src="/images/1.png" alt="Image 1">
 
-<img src="/images/2.png" alt="Image 2">
+<!-- <img src="/images/2.png" alt="Image 2"> -->
 
 <!-- <img src="/images/3.png" alt="Image 3"> -->
+
+
+
+
+
+
+import pandas as pd
+import folium
+
+# Load the dataset 
+crime_data = pd.read_csv("C:\\Users\\sinar\\Downloads\\Police_Department_Incident_Reports__Historical_2003_to_May_2018_20240130.csv")
+
+# Convert the 'Date' column to datetime format
+crime_data['Date'] = pd.to_datetime(crime_data['Date'])
+
+# Filter the data to include only 'DRUG/NARCOTIC' arrests for the specified months
+start_date = '2018-01-01'
+end_date = '2018-06-01'
+drug_data = crime_data[(crime_data['Category'] == 'ROBBERY') & 
+                       (crime_data['Date'] >= start_date) & 
+                       (crime_data['Date'] <= end_date)].copy()
+
+# Create a Folium map centered around San Francisco
+map_sf_drug = folium.Map(location=[37.7749, -122.4194], zoom_start=13)
+
+# Add a red dot marker for each arrest
+for index, row in drug_data.iterrows():
+    folium.CircleMarker(location=[row['Y'], row['X']], radius=2, color='red', fill=True).add_to(map_sf_drug)
+
+# Display the map
+map_sf_drug
+
+
+
+
+
+
+
 
 
 
@@ -125,3 +164,7 @@ The last one is a Bokeh plot which is like a picture of the city's Crimes. With 
 All these pictures are like stories. They don't use words but they tell us a lot. The calendar shows us how things change day by day. The map with dots shows us where things happen. And the Bocken plot shows us when things happen. These pictures make it easier for us to see patterns. We can look at them and understand better what's going on around us. And when we understand, we can make better choices or find out more about our city.
 </p>
 <!-- C:\Users\sinar\socialdata\SirCna98.github.io\images\1.png -->
+
+
+
+Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].

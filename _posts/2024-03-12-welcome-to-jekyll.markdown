@@ -41,12 +41,28 @@ San Francisco, located on the west coast of the United States in the northern pa
 
 <img src="/images/1.png" alt="Image 1">
 
+
+# Description for first plot
+<p>
+
+Calendar heatmap :
+
+Here is a calendar heatmap for the crime type 'Robbery' in San Francisco in the period 2008 to 2018. Each square in the calendar represents one day, and the blocks of squares make up the years. On the right side of the plot is a color scale that visually indicates the number of events. Where the darker shades indicate a higher frequency of events. 
+This type of plot provides a comprehensive overview of temporal patterns and trends in the occurrence of robberies in the period from 2008 to 2018.
+
+</p>
+
 <!-- <img src="/images/2.png" alt="Image 2"> -->
 
 <!-- <img src="/images/3.png" alt="Image 3"> -->
 
 
+<p>
+Map display:
 
+After analyzing the general temporal patterns and trends in the incidence of robbery from 2008 to 2018, we now turn our attention to data with a visual representation of the areas where crime most frequently occurs. This allows us to identify crime patterns in relation to specific locations. 
+
+</p>
 
 <!-- <iframe src="/images/Plot 2.html"></iframe> -->
 
@@ -54,12 +70,27 @@ San Francisco, located on the west coast of the United States in the northern pa
 <iframe src="/images/Plot 2.html" style="width: 1000; height: 750;"></iframe>
 
 
+<p>
+
+The map displays an arrest related to robbery during the period from 1st January 2018 to 1st July 2018. In addition, the arrest is marked on the map as a red dot. This shows a good visualization of which area has or has the most crime in San Francisco and needs an extra eye for the area. 
+We only used small amounts of data instead of 10 years of data, as 10 years of data would be too large to visualize on the map as seen below. 
 
 
+</p>
 
+# Display plot 2.2
 
+<p>
 
+After researching crime in the area, it is also interesting to know when it occurs most frequently and what types of crime are most common.
 
+</p>
+
+<p>
+Hourly Crime Counts 
+The San Francisco data set is a large dataset; it includes different types of data such as crime type, the location of crimes, time zone for crimes and Etc. Analyzing this dataset provided detailed information about each crime type which can be used for statistical analysis and help officials to predict and be prepared for probable crime in each area. On the interactive bokeh plot we can compare how the distribution of crimes differs from each other, and compare crime numbers which were computed  per hour. X-axis shows the time of the day enumerate from 1 to 24 and Y-axis shows the counted crime per hour and on the right side of the plots we have different crime types and by clicking on each crime we are able to see the corresponding crime count as well as the time of crime. Therefore this plot will offer an easier overview of crime rate and make it more comparable for users. 
+
+</p>
 
 
 
@@ -129,26 +160,31 @@ San Francisco, located on the west coast of the United States in the northern pa
 
 
 
-
-
-
-
 <p>
-We all see lots of numbers and things happening every day. It can be hard to understand it all. So, we make pictures out of these numbers to help us see what's going on. Let me tell you about three kinds of pictures that do just that.
+
+Based on the three plots, it gives us insight into different aspects of crime in San Francisco. This gives us a picture of crime increasing over time. We can also identify specific areas and times when there is a need for increased attention from the officials. This information can also be used for prediction purposes and provide an outline for crime rate in future and assisting  authorities to devise  preventive plans to minimize the crime rate.
+
+</p>
+
+<!-- <p>
+We all see lots of numbers and things happening every day. It can be hard to understand it all. So, we make pictures out of these numbers to help us see what's going on. Let me tell you about three kinds of pictures that do just that. -->
 
 <!-- First, we've got a picture that's like a calendar. It's full of little boxes for each day. But instead of words, there are colors. These colors change if something special happens. If a lot of something happens, like people buying stuff, the box might be a dark color. If not much happens, the box might be light. This helps us see what days are busy or quiet over many years. It's a way to look back and remember what happened when. -->
 
-Now, let's talk about the second picture. It's a map with red dots. This map is of a city, a place where people crime is happening. Each red dot stands for something that happened there. Where you see lots of red dots close together, that's where a lot of stuff goes on. Maybe that's where most crimes happend those areas, or it's a violent(criminal) part of the city with lots of criminals. This map helps us see where the busy spots are.
+<!-- Now, let's talk about the second picture. It's a map with red dots. This map is of a city, a place where people crime is happening. Each red dot stands for something that happened there. Where you see lots of red dots close together, that's where a lot of stuff goes on. Maybe that's where most crimes happend those areas, or it's a violent(criminal) part of the city with lots of criminals. This map helps us see where the busy spots are. -->
 
 <!-- Last, there's a picture with bars. Each bar is for one hour of the day. Some bars are tall; this means in that hour, many things happened. Maybe it's when people are going to work or school. Other bars are short; not much happened then. This might be late at night when most people are home. It's a good way to see when things get busy or quiet in a city. -->
+<!-- 
+The last one is a Bokeh plot which is like a picture of the city's Crimes. With bars that rise and fall across the hours of the day, it shows us when the streets are full of Crime and when they're quiet and there is no crime happening. -->
 
-The last one is a Bokeh plot which is like a picture of the city's Crimes. With bars that rise and fall across the hours of the day, it shows us when the streets are full of Crime and when they're quiet and there is no crime happening.
 
-
-All these pictures are like stories. They don't use words but they tell us a lot. The calendar shows us how things change day by day. The map with dots shows us where things happen. And the Bocken plot shows us when things happen. These pictures make it easier for us to see patterns. We can look at them and understand better what's going on around us. And when we understand, we can make better choices or find out more about our city.
-</p>
+<!-- All these pictures are like stories. They don't use words but they tell us a lot. The calendar shows us how things change day by day. The map with dots shows us where things happen. And the Bocken plot shows us when things happen. These pictures make it easier for us to see patterns. We can look at them and understand better what's going on around us. And when we understand, we can make better choices or find out more about our city.
+</p> -->
 <!-- C:\Users\sinar\socialdata\SirCna98.github.io\images\1.png -->
 
 
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+<!-- Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk]. -->
+
+
+

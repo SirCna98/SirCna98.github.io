@@ -1,27 +1,9 @@
-<!-- layout: post
+layout: post
 title:  "Crime development in San Francisco within the decade (from 2008 to 2018)"
 date:   2024-03-12 10:28:34 +0100
-categories: jekyll update -->
-<!-- --- -->
-<!-- You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+categories: jekyll update
 
-Jekyll requires blog post files to be named according to the following format:
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %} -->
-
-<!-- Introduction: -->
 <h1>Crime development in San Francisco within the decade (from 2008 to 2018)</h1>
 
 San Francisco, located on the west coast of the United States in the northern part of California, is a diverse city. People from all over the world have chosen to call this city their home. San Francisco is an extremely captivating place, but it also faces challenges in terms of crime. By analyzing crime data from recent decades, we can reveal patterns and trends. In this study we will focus on crime patterns in the period from 2008 to 2018. This will give us insight into significant changes and highlight areas of concern. Politicians have encountered many problems regarding criminal activities in the area over the past decade, therefor  utilization of this data can aid fighting serious crimes by which security and safety will be increased in the society.

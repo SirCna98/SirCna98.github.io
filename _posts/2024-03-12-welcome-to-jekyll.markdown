@@ -1,7 +1,7 @@
-layout: post
-title:  "Crime development in San Francisco within the decade (from 2008 to 2018)"
-date:   2024-03-12 10:28:34 +0100
-categories: jekyll update
+#layout: post
+#title:  "Crime development in San Francisco within the decade (from 2008 to 2018)"
+#date:   2024-03-12 10:28:34 +0100
+#categories: jekyll update
 
 <p>
 <h1>Crime development in San Francisco within the decade (from 2008 to 2018)</h1>

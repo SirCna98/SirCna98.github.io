@@ -35,7 +35,7 @@ San Francisco, located on the west coast of the United States in the northern pa
 [jekyll-gh]:   https://github.com/jekyll/jekyll
 [jekyll-talk]: https://talk.jekyllrb.com/ --> -->
 
-
+<h1>Calendar heatmap </h1>
 
 <!-- This is my first website. -->
 
@@ -46,7 +46,7 @@ San Francisco, located on the west coast of the United States in the northern pa
 
 <p>
 
-<h1>Calendar heatmap </h1>
+
 
 Here is a calendar heatmap for the crime type 'Robbery' in San Francisco in the period 2008 to 2018. Each square in the calendar represents one day, and the blocks of squares make up the years. On the right side of the plot is a color scale that visually indicates the number of events. Where the darker shades indicate a higher frequency of events. 
 This type of plot provides a comprehensive overview of temporal patterns and trends in the occurrence of robberies in the period from 2008 to 2018.
@@ -96,7 +96,7 @@ After researching crime in the area, it is also interesting to know when it occu
 <p>
 <h1>Hourly Crime Counts</h1>
 
-The San Francisco data set is a large dataset; it includes different types of data such as crime type, the location of crimes, time zone for crimes and Etc. Analyzing this dataset provided detailed information about each crime type which can be used for statistical analysis and help officials to predict and be prepared for probable crime in each area. On the interactive bokeh plot we can compare how the distribution of crimes differs from each other, and compare crime numbers which were computed  per hour. X-axis shows the time of the day enumerate from 1 to 24 and Y-axis shows the counted crime per hour and on the right side of the plots we have different crime types and by clicking on each crime we are able to see the corresponding crime count as well as the time of crime. Therefore this plot will offer an easier overview of crime rate and make it more comparable for users. 
+The San Francisco data set is a large dataset; it includes different types of data such as crime type, the location of crimes, time zone for crimes and etc. Analyzing this dataset provided detailed information about each crime type which can be used for statistical analysis and help officials to predict and be prepared for probable crime in each area. On the interactive bokeh plot we can compare how the distribution of crimes differs from each other, and compare crime numbers which were computed  per hour. X-axis shows the time of the day enumerate from 1 to 24 and Y-axis shows the counted crime per hour and on the right side of the plots we have different crime types and by clicking on each crime we are able to see the corresponding crime count as well as the time of crime. Therefore this plot will offer an easier overview of crime rate and make it more comparable for users. 
 
 </p>
 

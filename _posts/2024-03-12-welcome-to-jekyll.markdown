@@ -15,7 +15,7 @@ San Francisco, located on the west coast of the United States in the northern pa
 <!-- 
 [jekyll-docs]: https://jekyllrb.com/docs/home
 [jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/ --> -->
+[jekyll-talk]: https://talk.jekyllrb.com/ -->
 
 <h1>Calendar heatmap </h1>
 

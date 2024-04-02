@@ -1,4 +1,3 @@
-
 <p>
 <h1>Crime development in San Francisco within the decade (from 2008 to 2018)</h1>
 

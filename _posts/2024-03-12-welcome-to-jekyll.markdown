@@ -24,7 +24,7 @@ print_hi('Tom')
 <!-- Introduction: -->
 
 
-San Francisco, located on the west coast of the United States in the northern part of California, is a diverse city. People from all over the world have chosen to call this city their home. San Francisco is an extremely captivating place, but it also faces challenges in terms of crime. By analyzing crime data from recent decades, we can reveal patterns and trends. In this study we will focus on crime patterns in the period from 2008 to 2018. This will give us insight into significant changes and highlight areas of concern. 
+San Francisco, located on the west coast of the United States in the northern part of California, is a diverse city. People from all over the world have chosen to call this city their home. San Francisco is an extremely captivating place, but it also faces challenges in terms of crime. By analyzing crime data from recent decades, we can reveal patterns and trends. In this study we will focus on crime patterns in the period from 2008 to 2018. This will give us insight into significant changes and highlight areas of concern.politicians have encountered many problems regarding criminal activities in the area over the past decade, therefor  utilization of this data can aid fighting serious crimes by which security and safety will be increased in the society.
  
 
 

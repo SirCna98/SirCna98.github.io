@@ -87,7 +87,8 @@ After researching crime in the area, it is also interesting to know when it occu
 </p>
 
 <p>
-Hourly Crime Counts 
+Hourly Crime Counts:
+
 The San Francisco data set is a large dataset; it includes different types of data such as crime type, the location of crimes, time zone for crimes and Etc. Analyzing this dataset provided detailed information about each crime type which can be used for statistical analysis and help officials to predict and be prepared for probable crime in each area. On the interactive bokeh plot we can compare how the distribution of crimes differs from each other, and compare crime numbers which were computed  per hour. X-axis shows the time of the day enumerate from 1 to 24 and Y-axis shows the counted crime per hour and on the right side of the plots we have different crime types and by clicking on each crime we are able to see the corresponding crime count as well as the time of crime. Therefore this plot will offer an easier overview of crime rate and make it more comparable for users. 
 
 </p>

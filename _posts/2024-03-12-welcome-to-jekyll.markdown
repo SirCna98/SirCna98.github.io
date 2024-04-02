@@ -21,7 +21,7 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %} -->
 
-Introduction:
+<!-- Introduction: -->
 
 
 San Francisco, located on the west coast of the United States in the northern part of California, is a diverse city. People from all over the world have chosen to call this city their home. San Francisco is an extremely captivating place, but it also faces challenges in terms of crime. By analyzing crime data from recent decades, we can reveal patterns and trends. In this study we will focus on crime patterns in the period from 2008 to 2018. This will give us insight into significant changes and highlight areas of concern. 
@@ -67,7 +67,9 @@ After analyzing the general temporal patterns and trends in the incidence of rob
 <!-- <iframe src="/images/Plot 2.html"></iframe> -->
 
 
-<iframe src="/images/Plot 2.html" style="width: 1000; height: 750;"></iframe>
+<!-- <iframe src="/images/Plot 2.html" style="width: 1000; height: 750;"></iframe> -->
+
+<iframe src="/images/Plot 2.html" style="width: 500px; height: 300px;"></iframe>
 
 
 <p>

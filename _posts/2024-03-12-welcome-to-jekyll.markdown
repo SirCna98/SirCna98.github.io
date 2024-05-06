@@ -67,7 +67,6 @@ The San Francisco data set is a large dataset; it includes different types of da
 </p>
 
 
-<iframe src="/images/heatmap_with_time.html" width="100%" height="500px"></iframe>
 
 
 
@@ -165,3 +164,4 @@ The last one is a Bokeh plot which is like a picture of the city's Crimes. With 
 
 
 
+<iframe src="/images/heatmap_with_time.html" width="100%" height="500px"></iframe>
